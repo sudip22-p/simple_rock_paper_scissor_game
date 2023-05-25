@@ -2,7 +2,7 @@ body {
     background: -moz-linear-gradient(45deg, #19da33 0%, #88bd0d 29%, #2654e9 66%, #8d3613 100%);
     background: -webkit-linear-gradient(45deg, #19da33 0%,#88bd0d 29%,#2654e9 66%,#8d3613 100%);
     background: linear-gradient(45deg, #19da33 0%,#88bd0d 29%,#2654e9 66%,#8d3613 100%);
-    background-size: 400% 400%;
+    background-size: 120% 120%;
     -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
