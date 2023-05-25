@@ -97,6 +97,7 @@ img:hover {
     flex-direction: column;
   }
   #roboChoice{
+    margin-left: 100px;
     flex-direction: column;
   }
   
