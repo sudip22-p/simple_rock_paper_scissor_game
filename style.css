@@ -92,7 +92,7 @@ img:hover {
 #replayButton:hover {
   background: rgb(202, 202, 21);
 }
-@media (min-width:550px) {
+@media (max-width:550px) {
   #result{
     flex-direction: column;
   }
