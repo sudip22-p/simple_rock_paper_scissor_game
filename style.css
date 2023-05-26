@@ -114,6 +114,7 @@ img:hover {
   #result{
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 10px;
   }
   #roboChoice{
     flex-wrap: wrap;
