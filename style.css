@@ -103,3 +103,17 @@ img:hover {
   }
   
 }
+.aggregateResult{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 25px;
+}
+.myScore{
+  color: rgb(12, 199, 12);
+}
+.computerScore{
+  color: red;
+}
