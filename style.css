@@ -121,7 +121,7 @@ img:hover {
     flex-direction: column;
   }
   .next{
-    justify-content: center;
+    justify-content: flex-start;
   }
   .aggregateResult{
     font-weight: 200;
