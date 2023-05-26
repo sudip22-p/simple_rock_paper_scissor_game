@@ -134,6 +134,18 @@ img:hover {
     font-size: 15px;
     font-weight: 500;
   }
+  #rock {
+    height: 80px;
+    width: auto;
+  }
+  #paper {
+    height: 80px;
+    width: auto;
+  }
+  #scissor {
+    height: 80px;
+    width: auto;
+  }
 }
 .aggregateResult{
   position: absolute;
