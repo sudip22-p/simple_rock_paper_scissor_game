@@ -94,10 +94,11 @@ img:hover {
 }
 @media (max-width:550px) {
   #result{
+    flex-wrap: wrap;
     flex-direction: column;
   }
   #roboChoice{
-    margin-left: 100px;
+    flex-wrap: wrap;
     flex-direction: column;
   }
   
