@@ -56,21 +56,22 @@ function checkWinner(x) {
     document.getElementById("nameDec").style.color = "#90EE90";
     document.getElementById("nameDec").textContent = "YOU";
     myScore++;
-    updateScore();
+    updateScore(myScore,".myScore" ,"You");
   } else if (x == 0) {
     document.getElementById("nameDec").style.color = "purple";
     document.getElementById("nameDec").textContent = "COMPUTER";
     computerScore++;
-    updateScore();
+    updateScore(computerScore,".computerScore","Bot");
   }
 }
-function updateScore(){
-  myScore=myScore<10?`0${myScore}`:myScore;
-  computerScore=computerScore<10?`0${computerScore}`:computerScore;
-  document.querySelector(".myScore").innerHTML=`My&nbsp; Score : ${myScore}`;
-  document.querySelector(".computerScore").innerHTML=`Bot Score : ${computerScore}`;
+function updateScore(x,y,z){
+  x=x<10?`0${x}`:x;
+  document.querySelector(y).innerHTML=`${z} :${x}`;
 }
 document.getElementById("replayButton").addEventListener("click", () => {
   document.getElementById("userChoice").style.display = "flex";
   document.querySelector(".next").style.display = "none";
+});
+document.getElementById("resetBtn").addEventListener("click", () => {
+  location.reload();
 });

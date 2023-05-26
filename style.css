@@ -52,7 +52,7 @@ img:hover {
 .next{
   display: none;
   min-height: 100vh;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }
@@ -88,9 +88,28 @@ img:hover {
   color: rgb(240, 14, 14);
   font-size: 23px;
   font-weight: bold;
+  cursor: pointer;
 }
 #replayButton:hover {
   background: rgb(202, 202, 21);
+}
+#resetBtn {
+  height: 48px;
+  width: 100px;
+  text-align: center;
+  padding-top: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(16, 199, 223, 0.6);
+  border-radius: 7px;
+  box-shadow: 5px 5px 3px rgba(0,0,0,0.8);
+  color: rgb(219, 165, 16);
+  font-size: 23px;
+  font-weight: bold;
+}
+#resetBtn:hover {
+  color: rgba(8, 245, 225, 0.6);
+  background-color: rgb(219, 165, 16);
 }
 @media (max-width:550px) {
   #result{
