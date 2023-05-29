@@ -46,7 +46,7 @@ img:hover {
   right: 20px;
 }
 #comChoicePic {
-  height: 100px;
+  height: 80px;
   width: auto;
 }
 .next{
@@ -57,7 +57,7 @@ img:hover {
   flex-direction: column;
 }
 #roboChoice{
-  margin:50px;
+  margin:30px;
   display: flex;
   flex-direction: row;
 }
@@ -68,7 +68,7 @@ img:hover {
   border: none;
   background-color: rgba(0,0,0,0.2);
   padding-top: 10px;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 180px;
   height: 40px;
   box-shadow: 3px 3px 5px black;
